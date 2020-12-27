@@ -278,7 +278,7 @@ button,
   width: 90%;
   margin: 0px 0px 50px 40px;
   padding: 10px;
-  background-image: url("../images/Texture.png");
+  background-image: url("../images/texture.png");
 
   border-radius: 2px;
   position: relative;
@@ -492,7 +492,7 @@ button,
 .slider-bg {
   padding: 12px;
   padding: 12px 50px;
-  background-image: url(../images/Texture.png);
+  background-image: url(../images/texture.png);
   border-radius: 2px;
   position: relative;
 

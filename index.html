@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Successive Technologies Task </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet/less" type="text/css" href="assets/css/styles.less" />
+</head>
+	<body>
+		<div class="container">
+			<header>
+				<nav class="topnav" id="myTopnav">
+                     <a href="#home" class="mt-20">Home</a>
+                     <a href="#Portfolio">Portfolio</a> <a href="#Services">Services</a> 
+                     <a href="#Freebies">Freebies</a> <a href="#about">About</a>
+					 <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+					<div class="search-container">
+						<form>
+							<label for="search" class="d-none">Search</label>
+							<input type="text" id="search" placeholder="Search.." name="search">
+							<button type="submit" name="searchbtn" id="searchbtn" role="button" aria-label="search button"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+				</nav>
+				<div class="topnav-shadow"> </div>
+			</header>
+			<section class="row">
+				<div class="col-3 service">
+					<div class="subscribe tooltiptext mt-3 ">
+						<div class="servicetextst">SERVICES</div>
+						<hr>
+						<div class="clearfix"> <img class="img2" src="assets/images/sliderimg.png" alt="Pineapple" width="120" height="100">
+							<div>From elegant print design to beautiful web user interface design, we provide top of the line designs at seller price! </div>
+						</div>
+						<button type="button" name="viewall" id="viewall" class="mr-8" role="button">View All</button>
+						<button type="button" name="price" id="price" role="button">Price</button>
+					</div>
+					<div class="card-shadow"></div>
+				</div>
+				<div class="col-9 mt-5">
+					<section class="regular slider slider-bg">
+						<div> <img src="assets/images/sliderimg.png" alt="sliderimage1"> </div>
+						<div> <img src="assets/images/sliderimg1.png" alt="sliderimage2"> </div>
+						<div> <img src="assets/images/sliderimg2.png" alt="sliderimage3"> </div>
+						<div> <img src="assets/images/sliderimg.png" alt="sliderimage4"> </div>
+						<div> <img src="assets/images/sliderimg1.png" alt="sliderimage5"> </div>
+						<div> <img src="assets/images/sliderimg2.png" alt="sliderimage6"> </div>
+					</section>
+					<div class="slider-shadow"></div>
+				</div>
+			</section>
+			<section class="subscribe-loading mt-5 mb-5">
+				<div class="row">
+					<div class="col-3">
+						<div class="subscribe ">
+							<div class="subscribebtnbg"></div>
+							<div class="subscribetext">SUBSCRIBE</div>
+							<form>
+								<hr>
+								<label for="email">Subscribe to our newsletter for update</label>
+								<input type="text" id="email" placeholder="Your email.." name="search">
+								<button type="submit" name="subscribe" id="subscribe" class="mr-8" role="button">Subscribe</button>
+								<button type="button" name="cancel" id="cancel" role="button">Cancel</button>
+							</form>
+						</div>
+						<div class="card-shadow"></div>
+					</div>
+					<div class="loading col-9">
+						<div class="card col-6">
+							<div class="progresscard">
+								<div class="d-flex">
+									<div>LOADING.....</div>
+									<div>51%</div>
+								</div>
+								<div id="myProgress">
+									<div id="myBar" style='width: 50%;background-color: #3c3c3c;'></div>
+								</div>
+							</div>
+							<div class="proshadw"></div>
+						</div>
+						<div class="card col-6">
+							<div class="progresscard">
+								<div class="d-flex">
+									<div>UPLOADING.....</div>
+									<div>91%</div>
+								</div>
+								<div id="myProgress">
+									<div id="myBar" style='width: 50%;background-color: #3c3c3c;'></div>
+								</div>
+							</div>
+							<div class="proshadw"></div>
+						</div>
+						<div class="card col-6">
+							<div class="progresscard">
+								<div class="d-flex">
+									<div>ERROR WHEN LOADING</div>
+									<div>!</div>
+								</div>
+								<div id="myProgress">
+									<div id="myBar" style='width: 100%;background-color: #c44545;'></div>
+								</div>
+							</div>
+							<div class="proshadw"></div>
+						</div>
+						<div class="card col-6">
+							<div class="progresscard">
+								<div class="d-flex">
+									<div>SUCCESSFULLY LOADED</div>
+									<div>100%</div>
+								</div>
+								<div id="myProgress">
+									<div id="myBar" style='width: 50%;background-color: #61a92d;'></div>
+								</div>
+							</div>
+							<div class="proshadw"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="assets/js/slick.min.js" type="text/javascript"></script>
+		<script src="assets/js/app.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/less@2" ></script>
+	</body>
+
+</html>
